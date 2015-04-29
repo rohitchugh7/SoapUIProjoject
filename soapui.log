@@ -1,11 +1,13 @@
-2015-04-29 13:03:55,654 WARN  [SoapUI] Missing folder [G:\SoapUIPOC\.\ext] for external libraries
-2015-04-29 13:03:55,872 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\User\soapui-settings.xml]
-2015-04-29 13:03:56,243 INFO  [WsdlProject] Loaded project from [file:/G:/SoapUIPOC/src/test/java/com/macys/soapui/REST-Project-2-soapui-project.xml]
-2015-04-29 13:03:56,246 WARN  [WsdlProject] Project 'REST Project 2' is from a newer version (5.1.2) of SoapUI than this (4.6.4) and parts of it may be incompatible or incorrect. Saving this project with this version of SoapUI may cause it to function differently.
-2015-04-29 13:03:56,540 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 2]
-2015-04-29 13:03:56,542 INFO  [SoapUITestCaseRunner] Running TestSuite [TestSuite 1], runType = SEQUENTIAL
-2015-04-29 13:03:56,550 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
-2015-04-29 13:03:56,570 INFO  [SoapUITestCaseRunner] running step [Search - Request 1]
-2015-04-29 13:04:22,762 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-2015-04-29 13:04:22,764 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 25819ms, status: FINISHED
-2015-04-29 13:04:22,769 INFO  [SoapUITestCaseRunner] TestSuite [TestSuite 1] finished with status [FINISHED] in 26223ms
+2015-04-29 14:52:01,025 WARN  [SoapUI] Missing folder [G:\SoapUIPOC\.\ext] for external libraries
+2015-04-29 14:52:01,196 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\User\soapui-settings.xml]
+2015-04-29 14:52:01,624 INFO  [WsdlProject] Loaded project from [file:/G:/SoapUIPOC/src/test/java/com/macys/soapui/REST-Project-2-soapui-project.xml]
+2015-04-29 14:52:01,627 WARN  [WsdlProject] Project 'REST Project 2' is from a newer version (5.1.2) of SoapUI than this (4.6.4) and parts of it may be incompatible or incorrect. Saving this project with this version of SoapUI may cause it to function differently.
+2015-04-29 14:52:01,927 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 2]
+2015-04-29 14:52:01,929 INFO  [SoapUITestCaseRunner] Running TestSuite [TestSuite 1], runType = SEQUENTIAL
+2015-04-29 14:52:01,939 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2015-04-29 14:52:01,957 INFO  [SoapUITestCaseRunner] running step [Search - Request 1]
+2015-04-29 14:52:09,197 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2015-04-29 14:52:09,198 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [3111] in Response
+2015-04-29 14:52:09,200 ERROR [SoapUITestCaseRunner] Search - Request 1 failed, exporting to [G:\SoapUIPOC\target\surefire-reports\TestSuite_1-TestCase_1-Search__Request_1-0-FAILED.txt]
+2015-04-29 14:52:09,203 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 7020ms, status: FAILED
+2015-04-29 14:52:09,208 INFO  [SoapUITestCaseRunner] TestSuite [TestSuite 1] finished with status [FAILED] in 7274ms
